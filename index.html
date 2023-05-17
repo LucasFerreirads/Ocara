@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/global.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">UEA Tech Learning</h1>
+        <label for="menu-toggle" class="menu-icon">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            </label>
+        <ul class="menu">
+            <li class="carousel-header"><a href="#">Principal</a></li>
+            <li class="about-header"><a href="#">Sobre</a></li>
+            <li class="courses-header"><a href="#">Cursos</a></li>
+            <li class="contact-header"><a href="#">Fale Conosco</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="carousel-content">
+            <div class="hero">
+                <div class="carrousel">
+                    <img src="/imagemCarousel.png" alt="foto de um rapaz com óculos de realidade virtual">
+                    <h1>Descubra a incrível<br> Tecnologia da Samsung Ocara</h1>
+                    <p>Uma iniciativa de capacitação e formação profissional em tecnologia, que oferece cursos em áreas importantes para o mercado de trabalho</p>
+                    <button type="button" class="carrousel-button">Participar</button>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-1">
+                <img src="img1.jpg" alt="imagem1">
+                <div class="content">
+                    <h1>O que temos:</h1>
+                    <p>Cursos que ensinam o que há de mais novo no mercado, com equipamentos de última geração e os melhores profissionais.</p>
+                </div>
+                
+            </div>
+            <div class="about-2">
+                <img src="img2.jpg" alt="imagem2">
+                <div class="content">
+                    <h1>O que você irá aprender:</h1>
+                    <p>Escolha entre uma variedade grande de cursos, o que você deseja aprender. Nossos cursos são diversificados e focados nas áreas mais interesssantes do mercado</p>
+                </div>
+                
+            </div>
+            <div class="about-3">
+                <img src="img3.jpg" alt="imagem3">
+                <div class="content">
+                    <h1>Como participar:</h1>
+                    <p>Nossos cursos tem duração de 3 meses, e para participar você precisa estar matriculado numa instituição de ensino IFAM, UFAM, UEA ou instituições particulares.</p>    
+                </div>
+                
+            </div>
+            
+        </section>
+        <section class="courses">
+            <h1 class="title">Cursos</h1>
+            <ul>
+                <li class="course-1">
+                    <img src="course1.png">
+                    <h1>Cultura e Capacitação<br>Empreendora</h1>
+                </li>
+                <li class="course-2">
+                    <img src="course2.png">
+                    <h1>Design Digital</h1>
+                </li>
+                <li class="course-3">
+                    <img src="course3.png">
+                    <h1>Estruturação <br> de Novos Negócios</h1>
+                </li>
+                <li class="course-4">
+                    <img src="course4.png">
+                    <h1>Fundamentos do <br>Design Industrial</h1>
+                </li>
+                <li class="course-5">
+                    <img src="course5.png">
+                    <h1>Introdução aos Conceitos<br>da Indústria 4.0</h1>
+                </li>
+                <li class="course-6">
+                    <img src="course6.png">
+                    <h1>Transformação Digital</h1>
+                </li>
+            </ul>
+        </section>
+        <form class="contact">
+            <h2 class="title">Fale Conosco</h2>
+            <div>
+                <label>Nome</label>
+                <input type="text" id="text" placeholder="Nome" required>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label>Assunto</label>
+                <input type="text" id="subject" placeholder="Assunto" required>
+            </div>
+            <div>
+                <label>Descrição</label>
+                <textarea  type="text" id="description" placeholder="Descrição"  rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <h1>@lucas.devstudies</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
